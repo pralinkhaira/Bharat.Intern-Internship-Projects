@@ -68,9 +68,14 @@ If you would like to contribute to this project, please follow these steps:
 
 6. Create a pull request on the original repository.
 
+## ScreenShots
+
+- ![Image1]()
+- ![Image2]()
+
 ## License
 
-This Project Management Tool is available under the [MIT License](LICENSE).
+This Project Management Tool is available under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
 
 ## Contact
 
