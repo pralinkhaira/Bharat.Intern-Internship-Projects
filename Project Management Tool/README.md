@@ -70,8 +70,8 @@ If you would like to contribute to this project, please follow these steps:
 
 ## ScreenShots
 
-- ![Image1]()
-- ![Image2]()
+- ![Image1](https://pralinkhaira.github.io/Storage-Misc/1.png)
+- ![Image2](https://pralinkhaira.github.io/Storage-Misc/2.png)
 
 ## License
 
