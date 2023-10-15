@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li, button, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Section styles */
+.profile-section, .tasks-section, .projects-section, .messages-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section h2, .tasks-section h2, .projects-section h2, .messages-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-section img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.task-list, .project-list, .message-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item, .project-item, .message-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    resize: vertical;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 10px 0;
+    }
+}
